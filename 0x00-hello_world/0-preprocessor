@@ -1,2 +1,2 @@
 #!/bin/bash
-echo #include <stdio.h> tail
+export CFILE=0-main.c ; ./0-preprocessor
