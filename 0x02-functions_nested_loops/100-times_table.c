@@ -3,7 +3,7 @@
  * print_times_table - prints time table with parameter
  * @n: parameter
  * Return: return nothing
- * /
+ */
  void print_times_table (int n)
  {
 
