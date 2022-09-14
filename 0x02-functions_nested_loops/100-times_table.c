@@ -37,4 +37,5 @@ int digit, mult, result;
 	_putchar(( result % 10) + '0');
 	}
 	_putchar( '\n');
+
 }
