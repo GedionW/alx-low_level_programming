@@ -1,49 +1,20 @@
-#include "main.h"
-
-
+#include <stdio.h>
+#include 'main.h"
 
 /**
- *
- *  * print_numbers - prints the numbers
- *
- *   * let the numbers speak for themselves
- *
- *    * Return: always void
- *
- *     */
+*prints_numbers - functions that print all numbers from
+*0 to 9
+*
+*Return: returns nothing
+*/
 
-
-
-void print_numbers(void)
-
-	  
-
+void print_number(void)
 {
+	int n;
 
-	  
-
-	  int i = 48; /* ascii: 0 */
-
-	    
-
-	    while (i <= 57) /* ascii: 9 */
-
-		        
-
-		        {
-
-				      
-
-				      _putchar(i++);
-
-				            
-
-				          }
-
-	      
-
-	      _putchar('\n');
-
-	        
-
+	for (n = 48; n < 58;n++)
+	{
+		putchar(n);
+	}
+	putchar(10);
 }
