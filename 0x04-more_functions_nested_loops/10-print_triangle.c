@@ -1,201 +1,38 @@
-nclude "main.h"
+#include <stdio.h>
+#include "main.h"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**
- *
- *  * print_triangle - check for a digit
- *
- *   * @size: integer(size x size) type
- *
- *    * Return: void
- *
- *     */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/***
+*print_triangle - prints a triangle
+*@size:size parameter of triangle
+*Return: returns nothing
+*/
 
 void print_triangle(int size)
-
-	  
-
-
-
-	  
-
 {
-
-	  
-
-
-
-	  
-
-	  int i, n, spaceX;
-
-	    
-
-
-
-	    
-
-
-
-	    
-
-
-
-	    
-
-	    if (size < 1)
-
-		        
-
-
-
-		        
-
-		        {
-
-				      
-
-
-
-				      
-
-				      _putchar('\n');
-
-				            
-
-
-
-				            
-
-				            return;
-
-					          
-
-
-
-					          
-
-					        }
-
-	      
-
-
-
-	      
-
-	      i = 0;
-
-	        
-
-
-
-	        
-
-	        spaceX = size - 1;
-
-		  
-
-
-
-		  
-
-		  while (i < size)
-
-			      
-
-
-
-			      
-
-			      {
-
-				            
-
-
-
-				            
-
-				            n = 0;
-
-					          
-
-
-
-					          
-
-					          while (n < size)
-
-							  	
-
-
-
-							  	
-
-							  	_putchar((n++ < spaceX) ? ' ' : '#');
-
-						        
-
-
-
-						        
-
-						        _putchar('\n');
-
-							      
-
-
-
-							      
-
-							      spaceX--;
-
-							            
-
-
-
-							            
-
-							            i++;
-
-								          
-
-
-
-								          
-
-								        }
-
-		    
-
-
-
-		    
-
+	int incl, incl2;
+
+	if (size > 0)
+	{
+		for (incl = 1; incl <= size; incl++)
+		{
+			for ((inc2 = size - inc1); inc2 > 0; inc2--)
+			{
+				putchar(' ');
+			}
+
+			for (inc2 = 0; inc2 < inc1; inc2++)
+			{
+				putchar('#');
+			}
+
+			if (inc1 == size)
+			{
+				continue;
+			}
+
+			putchar('\n');
+		}
+			spaceX--;
+			i++;
+	}
 }
