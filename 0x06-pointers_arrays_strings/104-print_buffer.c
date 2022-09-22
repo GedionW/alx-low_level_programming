@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_line - prints an s bytes of buffer
+ * print_line - prints a s bytes of buffer
  * @c: buffer to prints
  * @s: bytes of bufer to print
  * @l: line of buffer to print
@@ -17,7 +17,7 @@ void print_line(char *c, int s, int l)
 	for (j = 0; j <= 9; j++)
 	{
 		if (j <= s)
-			printsf("%02x", c[l * 10 + j]);
+			printf("%02x", c[l * 10 + j]);
 		else
 			printf(" ");
 		if (j % 2)
