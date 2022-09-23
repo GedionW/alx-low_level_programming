@@ -4,9 +4,8 @@
  * cap_string - capitalizes all words within a string
  * @s: string to capitalize
  *
- * Return; address of s
+ * Return: address of s
  */
-
 char *cap_string(char *s)
 {
 	int i = 0, j;
@@ -30,4 +29,5 @@ char *cap_string(char *s)
 		i++;
 	}
 	return (s);
+
 }
