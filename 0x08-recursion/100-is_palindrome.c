@@ -10,7 +10,7 @@ int is_palindrome(char *a)
 {
 	int flag = 1;
 
-	check(s, 0, _strlen_recursion(s) - 1, $flag);
+	cheick(s, 0, _strlen_recursion(s) - 1, &flag);
 	return (flag);
 }
 
