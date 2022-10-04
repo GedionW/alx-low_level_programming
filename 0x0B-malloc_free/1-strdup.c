@@ -5,10 +5,10 @@
  * which contains a copy of the string given as a parameter
  * @str:string to be copied
  *
- * Return: NULL in case of erro, pointer to allocated space
+ * Return: NULL in case of erro, pointer to allocated 
  */
 
-char *_strdup(char *str)
+char *_strdup(char *s1, char *s2)
 {
 	char *cpy;
 	int index, len;
