@@ -2,11 +2,11 @@
 #include <string.h>
 
 /**
- * add_node_end - adds node at the ned of list_t list
+ * add_node_end - adds node at the end of list_t list
  * @head: pointer to head of list_t list
  * @str: string to be added to list_t list
  *
- * Return: NULL if function fails else nnew element
+ * Return: NULL if function fails else new element
  */
 list_t *add_node_node(list_t **head, const char *str)
 {
