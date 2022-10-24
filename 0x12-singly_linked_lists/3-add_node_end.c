@@ -8,7 +8,7 @@
  *
  * Return: NULL if function fails else new element
  */
-list_t *add_node_node(list_t **head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
 	char *dup;
 	int len;
