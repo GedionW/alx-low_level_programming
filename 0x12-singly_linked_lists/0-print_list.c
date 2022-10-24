@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_lists - prints lelemts of list_tlist
+ * print_list - prints elements of list_t list
  * @h: pointer to strat of list
  *
  * Return: number of nodes in the list
