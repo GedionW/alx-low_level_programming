@@ -2,9 +2,9 @@
 #include "lists.h"
 
 /**
- * free_list frees a list_t list
+ * free_list - frees a list_t list
  * @head: pointer to strat of list
- * 
+ *
  * Return: void
  */
 void free_list(list_t *head)
