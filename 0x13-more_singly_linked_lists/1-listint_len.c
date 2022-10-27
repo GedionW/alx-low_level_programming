@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * listing_len - return nummber of elements in a linked listint_t list
+ * listint_len - returns number of elements in a linked listint_t list
  *
  * Return: number of elements in linked listint_t list
  */
